@@ -15,7 +15,7 @@ class SimpleField(Scene):
         )
         self.play(Create(plane))
 
-        # Use ArrowVectorField (not VectorField) in v0.18
+        # Use ArrowVectorField 
         field = ArrowVectorField(
             f,
             x_range=[-3, 3, 1],     # [min, max, step]
